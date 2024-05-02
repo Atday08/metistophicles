@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metistophicles Gaming</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #222;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 40px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Welcome to Metistophicles Gaming</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="home" class="section">
+    <div class="container">
+        <h2>Explore the World of Gaming</h2>
+        <p>Discover thrilling games and join our community!</p>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>About Metistophicles Gaming</h2>
+        <p>Learn more about our mission and passion for gaming.</p>
+    </div>
+</section>
+
+<section id="services" class="section">
+    <div class="container">
+        <h2>Our Gaming Services</h2>
+        <ul>
+            <li>Game Reviews</li>
+            <li>Live Streaming</li>
+            <li>Community Events</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for collaborations and inquiries.</p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Metistophicles Gaming</p>
+    </div>
+</footer>
+
+</body>
+</html>
